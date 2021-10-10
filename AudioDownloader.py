@@ -23,22 +23,22 @@ class EntryWindow(Gtk.Window):
         hbox.pack_start(vbox_label, True, True, 0)
         label = Gtk.Label(label="BAIXE AUDIOS DIRETO DO YOUTUBE!")
         vbox_label.pack_start(label, True, True, 2)
-
+        #Criação de um label para inserir a URL
         self.entry = Gtk.Entry()
         self.entry.set_text("URL DO VIDEO")
         self.entry.set_progress_fraction(0) 
         vbox.pack_start(self.entry, True, True, 10)
-
+        
         hbox = Gtk.Box(spacing=3)
         vbox.pack_start(hbox, True, True, 20)
-
+        #Criação de um botão para baixar
         self.button = Gtk.Button(label="Baixar")
         self.button.connect("clicked", self.on_button_clicked)
         self.add(self.button)
         hbox.pack_start(self.button, True, True, 40)
 
     def on_button_clicked(self, widget):
-        try:
+        try:#Aqui irá iniciar o download do audio exibindo uma mensagem ao final para o usuário
             url = self.entry.get_text()
             ydl_opts = {
                 'format': 'bestaudio/best',
@@ -69,7 +69,7 @@ class EntryWindow(Gtk.Window):
             print("Caixa de dialogo fechada")
 
             dialog.destroy()
-        except:
+        except:#Caso a URL estiver inválida exibirá um erro.
             dialog = Gtk.MessageDialog(
                 transient_for=self,
                 flags=0,
