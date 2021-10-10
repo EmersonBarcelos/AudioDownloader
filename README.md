@@ -13,9 +13,8 @@ gi -> ja vem por padrão em distros linux
 # Para adicionar este PPA execute:
 
 <pre>
-<span style="font-weight: 400">apt-get dist-upgrade</span>
-sudo apt-get install -y software-properties-common
-add apt-repository ppa:mc3man/trusty-media
+    <span style="font-weight: 400">sudo apt-get install -y software-properties-common</span>
+    <span style="font-weight: 400">add apt-repository ppa:mc3man/trusty-media</span>
 </pre>
 # Depois que o PPA estiver instalado, vamos atualizar o repositório executando o comando:
 
