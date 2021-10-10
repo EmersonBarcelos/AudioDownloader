@@ -38,7 +38,7 @@ class EntryWindow(Gtk.Window):
         hbox.pack_start(self.button, True, True, 40)
 
     def on_button_clicked(self, widget):
-        try:#Aqui irá iniciar o download do audio exibindo uma mensagem ao final para o usuário
+        try:#inicia o download do audio exibindo uma mensagem ao final para o usuário
             url = self.entry.get_text()
             ydl_opts = {
                 'format': 'bestaudio/best',
