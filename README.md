@@ -17,13 +17,16 @@ Para adicionar este PPA execute:
  <span style="font-weight: 400">sudo apt-get install -y software-properties-common</span>
  <span style="font-weight: 400">add apt-repository ppa:mc3man/trusty-media</span>
 </pre>
+
 Depois que o PPA estiver instalado, vamos atualizar o repositório executando o comando:
+
 <pre>
  <span style="font-weight: 400">apt-get update</span>
  <span style="font-weight: 400">apt-get dist-upgrade</span>
 </pre>
 
 Por último, vamos instalar o FFmpeg:
+
 <pre>
  <span style="font-weight: 400">apt-get install ffmpeg</span>
 </pre>
