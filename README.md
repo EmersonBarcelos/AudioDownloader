@@ -22,7 +22,7 @@ Programa feito com interface GTK
  <span style="font-weight: 400">apt-get dist-upgrade</span>
 </pre>
 
-# Por último, vamos instalar o FFmpeg:
+Por último, vamos instalar o FFmpeg:
 <pre>
  <span style="font-weight: 400">apt-get install ffmpeg</span>
 </pre>
