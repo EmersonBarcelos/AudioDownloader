@@ -3,7 +3,7 @@ Faça downloads de áudios diretamente do youtube, por exemplo para download de 
 
 Programa feito com interface GTK
 
-Bibliotecas utilizadas:
+# Bibliotecas utilizadas:
 
 youtube_dl -> pip install youtube_dl
 gi -> ja vem por padrão em distros linux
