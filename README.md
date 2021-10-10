@@ -1,5 +1,6 @@
 # Audio Downloader
-Faça downloads de áudios diretamente do youtube, por exemplo para download de podcasts no youtube.
+Faça downloads de áudios diretamente do youtube, por exemplo para download de podcasts no youtube,
+com uma interface simples e fácil de usar.
 
 Programa feito com interface GTK
 
