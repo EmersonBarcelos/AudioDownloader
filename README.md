@@ -9,9 +9,10 @@ Bibliotecas utilizadas:
  <span style="font-weight: 400">youtube_dl -> pip install youtube_dl</span>
  <span style="font-weight: 400">gi -> ja vem por padrão em distros linux</span>
 </pre>
-é necessario a instalação do pacote ffmpeg para o funcionamento correto!
+É necessario a instalação do pacote ffmpeg para o funcionamento correto!
 
 Para adicionar este PPA execute:
+
 <pre>
  <span style="font-weight: 400">sudo apt-get install -y software-properties-common</span>
  <span style="font-weight: 400">add apt-repository ppa:mc3man/trusty-media</span>
