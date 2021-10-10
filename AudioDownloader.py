@@ -23,7 +23,7 @@ class EntryWindow(Gtk.Window):
         hbox.pack_start(vbox_label, True, True, 0)
         label = Gtk.Label(label="BAIXE AUDIOS DIRETO DO YOUTUBE!")
         vbox_label.pack_start(label, True, True, 2)
-        #Criação de um label para inserir a URL
+      
         self.entry = Gtk.Entry()
         self.entry.set_text("URL DO VIDEO")
         self.entry.set_progress_fraction(0) 
@@ -31,7 +31,7 @@ class EntryWindow(Gtk.Window):
         
         hbox = Gtk.Box(spacing=3)
         vbox.pack_start(hbox, True, True, 20)
-        #Criação de um botão para baixar
+       
         self.button = Gtk.Button(label="Baixar")
         self.button.connect("clicked", self.on_button_clicked)
         self.add(self.button)
