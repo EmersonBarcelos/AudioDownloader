@@ -1,4 +1,6 @@
 # Audio Downloader
+
+<img src=https://github.com/EmersonBarcelos/AudioDownloader/blob/main/LayoutPrograma.png/>
 Faça downloads de áudios diretamente do youtube, por exemplo para download de podcasts no youtube,
 com uma interface simples e fácil de usar.
 
@@ -32,7 +34,7 @@ Por último, vamos instalar o FFmpeg:
  <span style="font-weight: 400">apt-get install ffmpeg</span>
 </pre>
 
-<img src=https://github.com/EmersonBarcelos/AudioDownloader/blob/main/LayoutPrograma.png/>
+
 
  
 
