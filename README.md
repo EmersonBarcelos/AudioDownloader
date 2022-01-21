@@ -32,6 +32,7 @@ Por último, vamos instalar o FFmpeg:
  <span style="font-weight: 400">apt-get install ffmpeg</span>
 </pre>
 
+<img src=https://github.com/EmersonBarcelos/AudioDownloader/blob/main/LayoutPrograma.png/>
 
  
 
